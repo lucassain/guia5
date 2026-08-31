@@ -38,6 +38,30 @@ public class Main {
                     System.out.println("El area es: "+area);
 
                     break;
+                } case 2:{
+
+                    /*Realizar un programa que lea la longitud de los catetos de un triángulo
+                     rectángulo y calcule la longitud de la hipotenusa según el teorema de Pitágoras.
+                     Usar la clase Math.
+                     */
+
+                    System.out.println("Ingrese la longitud de cateto1: ");
+                    double cateto1=entrada.nextDouble();
+
+                    System.out.println("Ingrese la longitud del cateto2: ");
+                    double cateto2=entrada.nextDouble();
+
+                    double hipotenusa=Math.sqrt(Math.pow(cateto1,2)+Math.pow(cateto2,2));
+
+                    System.out.println("La hipotenusa es: "+hipotenusa);
+
+                    break;
+                }
+                case 3:{
+
+
+
+                    break;
                 }
 
                 default:{
