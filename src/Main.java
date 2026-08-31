@@ -5,6 +5,7 @@ public class Main {
 
         Scanner entrada=new Scanner(System.in);
         int opcion;
+        final double PI=3.14159;
 
         do {
             System.out.println("Ejercicio 1: ");
@@ -25,7 +26,6 @@ public class Main {
         muestra por pantalla la longitud y el área de la circunferencia. Cálculo de longitud: 2 * PI * radio,
         cálculo de área: PI * radio^2. Usar la clase Math.
          */
-                    final double PI=3.14159;
 
                     System.out.println("Ingrese el valor del radio de la circunferencia: ");
                     double radio= entrada.nextDouble();
@@ -58,7 +58,15 @@ public class Main {
                     break;
                 }
                 case 3:{
+                    /* Realizar un programa que calcula el volumen de una esfera. El valor de
+                    radio se debe pedir por teclado. Cálculo: volumen = 4/3 * PI * radio^3. Usar la clase Math.*/
 
+                    System.out.println("Ingrese el valor del radio: ");
+                    double radio=entrada.nextDouble();
+
+                    double volumen=4.0/3.0*PI*(Math.pow(radio,3));
+
+                    System.out.println("El volumen de la esfera es: "+volumen);
 
 
                     break;
