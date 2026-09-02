@@ -5,7 +5,6 @@ public class Main {
 
         Scanner entrada=new Scanner(System.in);
         int opcion;
-        int aa;
 
         do {
             System.out.println("Ejercicio 1: ");
