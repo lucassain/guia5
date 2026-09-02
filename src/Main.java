@@ -16,7 +16,7 @@ public class Main {
 
             switch (opcion){
                 case 0:{
-                    System.out.println("Cerrando programa...");
+                    System.out.println("Cerrando programa....");
                     break;
                 }
 
